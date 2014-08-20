@@ -29,7 +29,7 @@ Call method in AppDelegate application:didFinishLaunchingWithOptions: method:
 
 	[[AdformTrackingSDK sharedInstance] startTrackingWithTrackingId:your_developer_id withView:your_main_controller_view]];	 
 
-your_developer_id - Adform provided developer id
+your_developer_id - Adform provided developer id.
 your_main_controller_view - view of a controller, that is always accessible during apps life time.
 
 ## 4. Sending information requests manually
