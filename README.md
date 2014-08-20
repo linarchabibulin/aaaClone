@@ -40,9 +40,9 @@ your_main_controller_view - view of a controller, that is always accessible duri
 
 * Call method with ir without section name parameter:
 
-	[[AdformTrackingSDK sharedInstance] sendTrackingInformation];
+		[[AdformTrackingSDK sharedInstance] sendTrackingInformation];
 	
-	[[AdformTrackingSDK sharedInstance] sendTrackingInformation:@"section_name"];
+		[[AdformTrackingSDK sharedInstance] sendTrackingInformation:@"section_name"];
 	
 
 ## 5. Changing default app name
