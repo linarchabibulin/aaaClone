@@ -1,4 +1,3 @@
-
 ## 1. General Info
 
 The use of AdformTracking SDK requires the following:
@@ -60,10 +59,8 @@ In `application:didFinishLaunchingWithOptions:` method create track point, add p
 	
 		[trackPoint setCustomParameter:@"customParam" withKey:@"CustomKey"];
 
-Parameter and its key must be NSString variable.
+	Parameter and its key must be NSString variable.
 
 * Set dictionary filled with custom parameters:
 	
 		[trackPoint setCustomParameters:parametersDictionary];
-
-Parameter and its key must be NSString variable.
