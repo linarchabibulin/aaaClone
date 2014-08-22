@@ -27,7 +27,7 @@ The use of AdformTracking SDK requires the following:
 
 In `application:didFinishLaunchingWithOptions:` method create track point, add parameters (optional) and call `startTrackingWithTrackPoint:` method with created trackPoint:
 
-		TrackPoint *trackPoint = [[TrackPoint alloc] initWithTrackingPointId:@"trackPoint"];
+			TrackPoint *trackPoint = [[TrackPoint alloc] initWithTrackingPointId:@"trackPoint"];
     		[trackPoint setCustomParameter:@"parameterValue" withKey:@"parameterKey"];
     		[trackPoint setCustomParameter:@"parameterValue2" withKey:@"parameterKey2"];
     		[[AdformTrackingSDK sharedInstance] startTrackingWithTrackPoint:trackPoint]; 
@@ -41,7 +41,7 @@ In `application:didFinishLaunchingWithOptions:` method create track point, add p
 * Create tracking point, set parameters (optional) call `sendTrackingInformation:` method:
 
 		TrackPoint *trackPoint = [[TrackPoint alloc] initWithTrackingPointId:@"trackPoint"];
-		// set parameters
+		// set parameters here
 	 	[[AdformTrackingSDK sharedInstance] sendTrackingInformation:trackPoint];
 	
 
